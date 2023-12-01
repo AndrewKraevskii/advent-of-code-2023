@@ -6,7 +6,7 @@ Numbers ← {"zero" "one" "two" "three" "four" "five" "six" "seven" "eight" "nin
 
 SolutionTwo ← /+⊜(
   # get indexes of numbers and number words
-  ⊂∩(⊚≡(⌕⊔))+@0⇡10,Numbers¤⸮.
+  ⊂∩(⊚≡(⌕⊔))+@0⇡10,Numbers¤
   # sort them
   ⊏⊙(⊡0)⍏⊡1.⍉
   # select first and last from list and convert to number
